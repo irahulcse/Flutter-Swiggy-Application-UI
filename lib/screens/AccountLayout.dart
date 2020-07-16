@@ -6,7 +6,6 @@ class AccountLayout extends StatefulWidget {
 }
 
 class _AccountLayoutState extends State<AccountLayout> {
-
   void _moveBack() => Navigator.pop(context);
 
   @override
@@ -14,14 +13,12 @@ class _AccountLayoutState extends State<AccountLayout> {
     return Scaffold(
       body: ListView(
         children: <Widget>[
-
           Container(
             height: 160,
             width: double.infinity,
             color: Color.fromRGBO(211, 219, 234, 0.3),
             child: Stack(
               children: <Widget>[
-
                 // create account image start
                 Container(
                   alignment: Alignment.bottomRight,
@@ -42,7 +39,6 @@ class _AccountLayoutState extends State<AccountLayout> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-
                       Text(
                         "LOGIN",
                         style: TextStyle(
@@ -51,7 +47,6 @@ class _AccountLayoutState extends State<AccountLayout> {
                           fontWeight: FontWeight.w600,
                         ),
                       ),
-
                       Container(
                         margin: EdgeInsets.only(top: 4),
                         child: Text(
@@ -63,7 +58,6 @@ class _AccountLayoutState extends State<AccountLayout> {
                           ),
                         ),
                       ),
-
                     ],
                   ),
                 ),
@@ -76,12 +70,9 @@ class _AccountLayoutState extends State<AccountLayout> {
                   ),
                   onTap: _moveBack,
                 )
-               
               ],
             ),
           ),
-
-
           Container(
             width: double.infinity,
             padding: EdgeInsets.symmetric(vertical: 5, horizontal: 16),
@@ -103,9 +94,7 @@ class _AccountLayoutState extends State<AccountLayout> {
                   autofocus: false,
                   keyboardType: TextInputType.phone,
                 ),
-
                 Container(height: 32),
-
                 MaterialButton(
                   height: 48,
                   color: Theme.of(context).accentColor,
@@ -118,9 +107,8 @@ class _AccountLayoutState extends State<AccountLayout> {
               ],
             ),
           ),
-
         ],
-      )
+      ),
     );
   }
 }

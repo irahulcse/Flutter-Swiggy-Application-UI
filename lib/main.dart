@@ -32,6 +32,6 @@ ThemeData _lightTheme = ThemeData(
     button: TextStyle(
       fontSize: 14,
       color: Colors.white,
-    )
-  )
+    ),
+  ),
 );

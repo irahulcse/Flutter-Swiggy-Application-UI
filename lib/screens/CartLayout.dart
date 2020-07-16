@@ -12,7 +12,6 @@ class _CartLayoutState extends State<CartLayout> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-
           Container(
             height: 200,
             margin: EdgeInsets.only(bottom: 16),
@@ -23,12 +22,10 @@ class _CartLayoutState extends State<CartLayout> {
               fit: BoxFit.contain,
             ),
           ),
-
           Text(
             "Good food is always cooking",
             style: Theme.of(context).textTheme.bodyText1,
           ),
-
           Container(
             margin: EdgeInsets.only(top: 16),
             child: Text(
@@ -36,7 +33,6 @@ class _CartLayoutState extends State<CartLayout> {
               style: Theme.of(context).textTheme.bodyText2,
             ),
           ),
-
         ],
       ),
     );
