@@ -50,7 +50,7 @@ class _NearMeLayoutState extends State<NearMeLayout> {
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Color(0xff535665),
-                                  fontWeight: FontWeight.w500,
+                                  fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Icon(
