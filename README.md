@@ -1,4 +1,4 @@
-![Image](images/rovers.jpg)
+![Image](images/rovers.JPG)
 # Flutter Swiggy Application UI :boom:
 
 ### Widget Used:
